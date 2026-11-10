@@ -1,0 +1,202 @@
+{
+  "users": [
+    {
+      "user_id": "U001",
+      "username": "admin",
+      "password": "0ac596174a4c7392cd08442fba1523c4$c5cbc2a4ad50a6a8291c22022c0eb7f23e0ec41aaccfc2dbc0b1b1bb21fa3862",
+      "role": "admin"
+    },
+    {
+      "user_id": "U002",
+      "username": "Shabrina",
+      "password": "233dd84d94442b0c05503180082c4329$4dbbb1ab17324aa491c6dd505ccd5909f6f3bcca90ce3ebd3a5f65333b255bf3",
+      "role": "pemain"
+    },
+    {
+      "user_id": "U003",
+      "username": "123456789",
+      "password": "16a8d48df440a5c0f66d607098aead7a$3f128c8c2180574137baf702f4a3868c5c9da54f30d0c154d621242f8e652e47",
+      "role": "pemain"
+    }
+  ],
+  "soal": [
+    {
+      "soal_id": "S001",
+      "petunjuk": "Berapa nomor telepon darurat Polisi di Indonesia?",
+      "jawaban": "110",
+      "jumlah_digit": 3,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S002",
+      "petunjuk": "Berapa hasil dari 12 dikali 12?",
+      "jawaban": "144",
+      "jumlah_digit": 3,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S003",
+      "petunjuk": "Berapa jumlah jam dalam satu minggu?",
+      "jawaban": "168",
+      "jumlah_digit": 3,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S004",
+      "petunjuk": "Berapa jumlah hari dalam satu tahun biasa (bukan kabisat)?",
+      "jawaban": "365",
+      "jumlah_digit": 3,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S005",
+      "petunjuk": "Tahun berapa Indonesia merdeka?",
+      "jawaban": "1945",
+      "jumlah_digit": 4,
+      "tingkat": "sedang",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S006",
+      "petunjuk": "Tahun berapa Sumpah Pemuda diikrarkan?",
+      "jawaban": "1928",
+      "jumlah_digit": 4,
+      "tingkat": "sedang",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S007",
+      "petunjuk": "Berapa menit dalam satu hari?",
+      "jawaban": "1440",
+      "jumlah_digit": 4,
+      "tingkat": "sedang",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S008",
+      "petunjuk": "Berapa detik dalam satu jam?",
+      "jawaban": "3600",
+      "jumlah_digit": 4,
+      "tingkat": "sedang",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S009",
+      "petunjuk": "Berapa detik dalam satu hari?",
+      "jawaban": "86400",
+      "jumlah_digit": 5,
+      "tingkat": "sulit",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S010",
+      "petunjuk": "Berapa hasil dari 2 pangkat 16?",
+      "jawaban": "65536",
+      "jumlah_digit": 5,
+      "tingkat": "sulit",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S011",
+      "petunjuk": "Berapa hasil dari 999 dikali 999?",
+      "jawaban": "998001",
+      "jumlah_digit": 6,
+      "tingkat": "sulit",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S012",
+      "petunjuk": "tanggal lahir bina",
+      "jawaban": "18",
+      "jumlah_digit": 2,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    },
+    {
+      "soal_id": "S014",
+      "petunjuk": "123456665656",
+      "jawaban": "12",
+      "jumlah_digit": 2,
+      "tingkat": "mudah",
+      "dibuat_oleh": "U001"
+    }
+  ],
+  "riwayat": [
+    {
+      "riwayat_id": "R001",
+      "user_id": "U002",
+      "soal_id": "S014",
+      "skor": 0,
+      "status": "kalah",
+      "jumlah_percobaan": 0,
+      "waktu_main": "2026-11-10 12:01:35"
+    },
+    {
+      "riwayat_id": "R002",
+      "user_id": "U002",
+      "soal_id": "S001",
+      "skor": 90,
+      "status": "menang",
+      "jumlah_percobaan": 3,
+      "waktu_main": "2026-11-10 12:03:39"
+    },
+    {
+      "riwayat_id": "R003",
+      "user_id": "U002",
+      "soal_id": "S011",
+      "skor": 100,
+      "status": "menang",
+      "jumlah_percobaan": 4,
+      "waktu_main": "2026-11-10 12:04:16"
+    },
+    {
+      "riwayat_id": "R004",
+      "user_id": "U002",
+      "soal_id": "S003",
+      "skor": 60,
+      "status": "menang",
+      "jumlah_percobaan": 7,
+      "waktu_main": "2026-11-10 12:06:19"
+    },
+    {
+      "riwayat_id": "R005",
+      "user_id": "U003",
+      "soal_id": "S001",
+      "skor": 100,
+      "status": "menang",
+      "jumlah_percobaan": 2,
+      "waktu_main": "2026-11-10 12:29:43"
+    },
+    {
+      "riwayat_id": "R006",
+      "user_id": "U003",
+      "soal_id": "S001",
+      "skor": 100,
+      "status": "menang",
+      "jumlah_percobaan": 2,
+      "waktu_main": "2026-11-10 12:30:03"
+    },
+    {
+      "riwayat_id": "R007",
+      "user_id": "U003",
+      "soal_id": "S012",
+      "skor": 0,
+      "status": "kalah",
+      "jumlah_percobaan": 1,
+      "waktu_main": "2026-11-10 12:33:44"
+    },
+    {
+      "riwayat_id": "R008",
+      "user_id": "U003",
+      "soal_id": "S012",
+      "skor": 0,
+      "status": "kalah",
+      "jumlah_percobaan": 2,
+      "waktu_main": "2026-11-10 12:36:31"
+    }
+  ]
+}
