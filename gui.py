@@ -667,7 +667,6 @@ class App(tk.Tk):
         data_store.simpan_data(self.db)
         self.destroy()
 
-
 def jalankan():
     db = data_store.muat_data()
     App(db).mainloop()

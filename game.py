@@ -8,6 +8,7 @@ kesempatan salah habis. Keadaan satu ronde disimpan di memori (dictionary `state
 import uuid
 
 print("shabrina")
+print("HAIII")
 
 
 import auth
