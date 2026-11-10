@@ -5,5 +5,7 @@ Semua tampilan ada di gui.py; logika ada di modul lain (auth, soal, game, skor, 
 """
 import gui
 
+# end of file
+
 if __name__ == "__main__":
-    gui.jalankan()
+    gui.jalankan
